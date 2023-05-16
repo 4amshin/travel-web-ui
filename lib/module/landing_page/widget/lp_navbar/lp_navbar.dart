@@ -11,7 +11,7 @@ class LpNavbar extends StatelessWidget {
     return Container(
       // color: Colors.red,
       padding: const EdgeInsets.symmetric(
-        horizontal: 40,
+        horizontal: 100,
         vertical: 25,
       ),
       child: Row(
