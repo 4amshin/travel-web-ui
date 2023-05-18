@@ -8,7 +8,7 @@ class LpBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 690,
+      height: 665,
       padding: const EdgeInsets.symmetric(horizontal: 100),
       // color: Colors.red,
       child: const Row(

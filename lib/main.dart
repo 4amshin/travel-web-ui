@@ -1,5 +1,5 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:web_lab/module/landing_page/view/landing_page_view.dart';
+import 'package:web_lab/app.dart';
 import 'package:web_lab/state_util.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
-      home: const LandingPageView(),
+      home: const App(),
     );
   }
 }

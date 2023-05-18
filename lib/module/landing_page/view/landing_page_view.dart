@@ -10,13 +10,11 @@ class LandingPageView extends StatefulWidget {
   Widget build(context, LandingPageController controller) {
     controller.view = this;
 
-    return Scaffold(
-      body: ListView(
-        children: const [
-          LpNavbar(),
-          LpBody(),
-        ],
-      ),
+    return const Column(
+      children: [
+        LpNavbar(),
+        LpBody(),
+      ],
     );
   }
 
